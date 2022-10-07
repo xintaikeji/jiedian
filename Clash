@@ -5,256 +5,606 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vmess","name":"白嫖节点@kejixm123_1","server":"使用前记得更新订阅","port":"0","uuid":"6a3bcc08-9c77-4c02-844b-4a694c4f2fea","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"白嫖节点@kejixm123_2","ws-opts":{"path":"/aries","headers":{"host":"tgus.cloudflare.quest"}},"server":"shopify.com","port":80,"uuid":"353bbf5f-a264-4731-e735-984e611c2e01","alterId":0,"cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇺🇸_US_美国_白嫖节点@kejixm123_1","ws-opts":{"path":"/tech","headers":{"host":"161.35.229.94"}},"server":"161.35.229.94","port":443,"uuid":"27848739-7e62-4138-9fd3-098a63964b6b","alterId":0,"cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇺🇸_US_美国_白嫖节点@kejixm123_2","ws-opts":{"path":"/","headers":{"host":"pure.daycat.space"}},"server":"172.67.143.74","port":"443","uuid":"A9A56660-4554-4278-863A-D3CE30294B59","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"🇨🇳_CN_中国_白嫖节点@kejixm123_1","server":"924hk02.tfzhc.top","port":44388,"password":"2be3639a-f4cd-4161-ba78-49842b2269f6","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"🇬🇧_GB_英国_白嫖节点@kejixm123_1","ws-opts":{"path":"/getweather"},"server":"aop.ssfree.ru","port":"443","uuid":"2f8c13dc-4462-11ed-bc8c-000017022008","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"🇯🇵_JP_日本_白嫖节点@kejixm123","server":"nice-jp03.tiktokcdn.buzz","port":43857,"password":"P9qGW38zz7","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"🇩🇪_DE_德国_白嫖节点@kejixm123_1","ws-opts":{"path":"/vmess"},"server":"159.89.29.136","port":80,"uuid":"d20d6ede-433c-11ed-b81f-cfd905df9958","alterId":0,"cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇭🇰_HK_香港_白嫖节点@kejixm123_1","ws-opts":{"path":"/ray"},"server":"165.154.244.100","port":443,"uuid":"2cc10f9c-fb02-3e45-b619-c3b98cde912a","alterId":2,"cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇩🇪_DE_德国_白嫖节点@kejixm123_2","ws-opts":{"path":"/path/051111230910"},"server":"89.163.157.147","port":443,"uuid":"b8aedf50-c4f5-4255-b73d-3779db661d70","alterId":64,"cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"🇨🇳_CN_中国_白嫖节点@kejixm123_2","server":"1002sg.tfzhc.top","port":443,"password":"2be3639a-f4cd-4161-ba78-49842b2269f6","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"白嫖节点@kejixm123_3","ws-opts":{"path":"/aries","headers":{"host":"linode.cloudflare.quest"}},"server":"shopify.com","port":"80","uuid":"4397d066-f753-4300-e7ed-44797ddfcd24","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇺🇸_US_美国_白嫖节点@kejixm123_3","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"lg4.zhujicn2.com"}},"server":"172.64.155.200","port":"443","uuid":"a8030afd-812a-4afe-a766-9c76ff3eddd4","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"白嫖节点@kejixm123_4","ws-opts":{"path":"/123","headers":{"host":"jparm.fineyoo.ml"}},"server":"jparm.fineyoo.ml","port":443,"uuid":"10ba478e-9de1-4aa9-c09e-7707025334d3","alterId":0,"cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇺🇸_US_美国_白嫖节点@kejixm123_4","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"lg3.zhujicn2.com"}},"server":"172.64.144.100","port":"443","uuid":"6e9217de-ad7e-4a67-bd17-a6dca951733b","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇳🇴_NO_挪威_白嫖节点@kejixm123","ws-opts":{"path":"/path/051111230910"},"server":"46.29.218.84","port":443,"uuid":"f7a456da-9886-4dd7-b193-4c59a726219c","alterId":64,"cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇬🇧_GB_英国_白嫖节点@kejixm123_2","ws-opts":{"path":"/path/051111230910"},"server":"83.142.225.59","port":443,"uuid":"5267ca71-97e6-44c8-8fb5-9fe4afe0954e","alterId":64,"cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"白嫖节点@kejixm123_5","ws-opts":{"path":"/ray","headers":{"host":"m5.v2rayfree1.xyz"}},"server":"190.93.246.145","port":443,"uuid":"94887268-f3cb-48be-ade3-87d42faae3e4","alterId":0,"cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"白嫖节点@kejixm123_6","ws-opts":{"path":"/123","headers":{"host":"jparm.fineyoo.cf"}},"server":"jparm.fineyoo.cf","port":443,"uuid":"bd5ee249-fe7b-4669-a6d9-b3f5eecb98e6","alterId":0,"cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇹🇭_TH_泰国_白嫖节点@kejixm123","ws-opts":{"path":"/path/051111230910"},"server":"119.59.98.40","port":443,"uuid":"4d24fbde-cb0e-4025-98ec-222933847d3d","alterId":64,"cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"🇸🇬_SG_新加坡_白嫖节点@kejixm123_1","server":"1002tw.tfzhc.top","port":443,"password":"2be3639a-f4cd-4161-ba78-49842b2269f6","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"🇩🇰_DK_丹麦_白嫖节点@kejixm123","ws-opts":{"path":"/path/051111230910"},"server":"85.206.165.36","port":443,"uuid":"ba49ab05-78f8-4b0b-9400-1826cc2d3f75","alterId":64,"cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇺🇸_US_美国_白嫖节点@kejixm123_5","ws-opts":{"path":"/4befdd8a6/","headers":{"host":"sgp.kapok.buzz"}},"server":"sgp.kapok.buzz","port":"443","uuid":"c1bac6b8-934a-44e2-9cf2-ee0db1fc1c85","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇺🇸_US_美国_白嫖节点@kejixm123_6","ws-opts":{"path":"/v2ray","headers":{"host":"paopao.v2.hk02.paopaocloud.cyou"}},"server":"ah.yd01.paopaocloud.cyou","port":10020,"uuid":"d8c5b486-84bb-3887-a1d9-07455ea608f2","alterId":0,"cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇸🇬_SG_新加坡_白嫖节点@kejixm123_2","ws-opts":{"path":"/b26c74ee96d/","headers":{"host":"139.99.117.48"}},"server":"139.99.117.48","port":443,"uuid":"0aabdcbd-805f-4f4c-ba24-b176e736b37d","alterId":0,"cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇸🇬_SG_新加坡_白嫖节点@kejixm123_3","server":"139.99.91.95","port":443,"uuid":"c0156451-4efb-45e2-84fc-8d315c4650db","alterId":32,"cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇱🇺_LU_卢森堡_白嫖节点@kejixm123","server":"81.28.13.90","port":20004,"uuid":"2F094845-E2BD-EBF7-DEB7-995992436FAF","alterId":0,"cipher":"auto","network":"tcp","tls":true}
-  - {"type":"vmess","name":"🇨🇳_CN_中国_白嫖节点@kejixm123_3","ws-opts":{"path":"/je5x3pBN1vez3NQudNkB","headers":{"host":"s3.cjhh.beauty"}},"server":"ejdbj-1049-v2-11.hkg-r-kcd-c.ap.cjhh.beauty","port":29938,"uuid":"b46e5bfe-739c-4026-91fd-686209ce6d85","alterId":0,"cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"🇭🇰_HK_香港_白嫖节点@kejixm123_2","server":"hk-3.tiktokcdn.sbs","port":56810,"password":"FgnHZ6k9qg","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"🇨🇳_CN_中国_白嫖节点@kejixm123_4","ws-opts":{"path":"/je5x3pBN1vez3NQudNkB","headers":{"host":"node.inforun.work"}},"server":"akazz-1048-v2-2.tyo-r-kcd-a.nd.cjhh.mom","port":39928,"uuid":"b46e5bfe-739c-4026-91fd-686209ce6d85","alterId":0,"cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇨🇳_CN_中国_白嫖节点@kejixm123_5","ws-opts":{"path":"/oooo","headers":{"host":"baidu.com"}},"server":"v29.heduian.online","port":30866,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇩🇪DE德国电报https://t.me/kejixm123_1","ws-opts":{"path":"/vmess"},"server":"159.89.29.136","port":"80","uuid":"d20d6ede-433c-11ed-b81f-cfd905df9958","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"电报https://t.me/kejixm123_1","ws-opts":{"path":"/aries","headers":{"host":"scw.cloudflare.quest"}},"server":"cfhk.oppo.quest","port":"80","uuid":"2508cb1d-bd54-47c0-aead-1b8f55090427","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸US美国电报https://t.me/kejixm123_1","ws-opts":{"path":"/a.189.cn","headers":{"host":"baidu.com"}},"server":"text5.xbywwcp.us","port":"80","uuid":"9050a33f-0306-3dd4-80cf-d833a5328b26","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇳🇱NL荷兰电报https://t.me/kejixm123_1","ws-opts":{"path":"/vmess"},"server":"51.15.110.0","port":"80","uuid":"0aaf081d-b23c-4b6a-a85f-ed4bffcb1a2c","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"电报https://t.me/kejixm123_2","ws-opts":{"path":"/aries","headers":{"host":"tgus.cloudflare.quest"}},"server":"shopify.com","port":80,"uuid":"353bbf5f-a264-4731-e735-984e611c2e01","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇭🇰HK香港电报https://t.me/kejixm123_1","server":"58.177.92.202","port":39999,"uuid":"67c50f6a-816d-3555-89b4-19dd29608f8b","alterId":0,"cipher":"auto","network":"auto","tls":true}
+  - {"type":"vmess","name":"🇺🇸US美国电报https://t.me/kejixm123_2","ws-opts":{"path":"/4befdd8a6/","headers":{"host":"sgp.kapok.buzz"}},"server":"sgp.kapok.buzz","port":"443","uuid":"c1bac6b8-934a-44e2-9cf2-ee0db1fc1c85","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸US美国电报https://t.me/kejixm123_3","ws-opts":{"path":"/didi"},"server":"146.190.2.54","port":443,"uuid":"2a4918de-adce-4c4e-aa00-88a4227cf6ea","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇩🇪DE德国电报https://t.me/kejixm123_2","ws-opts":{"path":"/4ba99a39b90faa/","headers":{"host":"31.22.109.209"}},"server":"31.22.109.209","port":443,"uuid":"36793d2c-0d5a-4a84-8862-f9c93e9af5b5","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"🇸🇬SG新加坡电报https://t.me/kejixm123_1","server":"165.154.253.15","port":49011,"password":"6c4e3611-5f2d-4eb5-8c56-3e2b850e4cca","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"🇨🇳CN中国电报https://t.me/kejixm123_1","ws-opts":{"path":"/oooo","headers":{"host":"baidu.com"}},"server":"v29.heduian.online","port":"30866","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"🇯🇵JP日本电报https://t.me/kejixm123_1","server":"168.138.43.89","port":443,"password":"d06a3f01-1ff0-4792-9b8e-a5a604bc74a2","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"🇬🇧GB英国电报https://t.me/kejixm123_1","server":"172.99.190.39","port":3389,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"vmess","name":"🇺🇸US美国电报https://t.me/kejixm123_4","ws-opts":{"path":"/tech","headers":{"host":"161.35.229.94"}},"server":"161.35.229.94","port":443,"uuid":"27848739-7e62-4138-9fd3-098a63964b6b","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"电报https://t.me/kejixm123_3","server":"使用前记得更新订阅","port":"0","uuid":"6a3bcc08-9c77-4c02-844b-4a694c4f2fea","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇨🇳CN中国电报https://t.me/kejixm123_2","ws-opts":{"path":"/mugua","headers":{"host":"jp-balancer.myn1des.com"}},"server":"in01.my1188.org","port":"63086","uuid":"d78c0bf3-b5bb-3948-b5af-83379d8c917f","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"🇯🇵JP日本电报https://t.me/kejixm123_2","server":"nice-jp03.tiktokcdn.buzz","port":43857,"password":"P9qGW38zz7","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"🇨🇳CN中国电报https://t.me/kejixm123_3","ws-opts":{"path":"/doxjp03","headers":{"host":"gz.daxun.cyou"}},"server":"gz.daxun.cyou","port":"20631","uuid":"4a4db4cd-6475-4d20-a353-776378e68072","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇬🇧GB英国电报https://t.me/kejixm123_2","ws-opts":{"path":"/path/051111230910"},"server":"83.142.225.59","port":443,"uuid":"5267ca71-97e6-44c8-8fb5-9fe4afe0954e","alterId":64,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"电报https://t.me/kejixm123_4","server":"使用前记得更新订阅","port":"0","uuid":"6a3bcc08-9c77-4c02-844b-4a694c4f2fea","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇲🇾MY马来西亚电报https://t.me/kejixm123","server":"202.59.10.116","port":31372,"uuid":"cab79370-f135-445b-d480-aaa0d69bb108","alterId":0,"cipher":"auto","network":"auto"}
+  - {"type":"vmess","name":"🇬🇧GB英国电报https://t.me/kejixm123_3","server":"5.181.132.235","port":31372,"uuid":"0bb88eea-73a5-4e37-ac8b-03090a57acba","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇭🇰HK香港电报https://t.me/kejixm123_2","server":"58.177.92.202","port":39999,"uuid":"67c50f6a-816d-3555-89b4-19dd29608f8b","alterId":0,"cipher":"auto","network":"auto","tls":true}
+  - {"type":"ss","name":"🇨🇭CH瑞士电报https://t.me/kejixm123","server":"37.120.213.34","port":50000,"cipher":"aes-256-cfb","password":"3135771619"}
+  - {"type":"vmess","name":"电报https://t.me/kejixm123_5","ws-opts":{"path":"/aries","headers":{"host":"tgus.cloudflare.quest"}},"server":"shopify.com","port":80,"uuid":"353bbf5f-a264-4731-e735-984e611c2e01","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸US美国电报https://t.me/kejixm123_5","ws-opts":{"path":"/tech","headers":{"host":"161.35.229.94"}},"server":"161.35.229.94","port":443,"uuid":"27848739-7e62-4138-9fd3-098a63964b6b","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇭🇰HK香港电报https://t.me/kejixm123_3","ws-opts":{"path":"/ray"},"server":"165.154.244.100","port":443,"uuid":"2cc10f9c-fb02-3e45-b619-c3b98cde912a","alterId":2,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸US美国电报https://t.me/kejixm123_6","server":"47.87.166.143","port":44443,"uuid":"2F094845-E2BD-EBF7-DEB7-995992436FAF","alterId":0,"cipher":"auto","network":"auto","tls":true}
+  - {"type":"ss","name":"🇬🇧GB英国电报https://t.me/kejixm123_4","server":"142.202.51.98","port":50000,"cipher":"aes-256-cfb","password":"3135771619"}
+  - {"type":"ss","name":"🇧🇬BG保加利亚电报https://t.me/kejixm123","server":"146.70.53.242","port":50000,"cipher":"aes-256-cfb","password":"3135771619"}
+  - {"type":"vmess","name":"🇯🇵JP日本电报https://t.me/kejixm123_3","ws-opts":{"path":"/b472f/","headers":{"host":"linode.sharecentre.xyz"}},"server":"cf.731808.tk","port":443,"uuid":"3fad3b4c-8691-42f2-a46d-9875cacaeeb2","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇩🇪DE德国电报https://t.me/kejixm123_3","ws-opts":{"path":"/vmess"},"server":"159.89.29.136","port":80,"uuid":"d20d6ede-433c-11ed-b81f-cfd905df9958","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇸🇬SG新加坡电报https://t.me/kejixm123_2","server":"139.99.91.95","port":443,"uuid":"c0156451-4efb-45e2-84fc-8d315c4650db","alterId":32,"cipher":"auto","network":"auto"}
+  - {"type":"vmess","name":"🇭🇰HK香港电报https://t.me/kejixm123_4","ws-opts":{"path":"/path/051111230910"},"server":"27.50.59.222","port":443,"uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇳🇱NL荷兰电报https://t.me/kejixm123_2","ws-opts":{"path":"/vmess"},"server":"51.15.110.0","port":80,"uuid":"0aaf081d-b23c-4b6a-a85f-ed4bffcb1a2c","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"🇺🇸US美国电报https://t.me/kejixm123_7","server":"20.210.122.21","port":443,"cipher":"aes-256-gcm","password":"233blog.com"}
+  - {"type":"vmess","name":"🇩🇪DE德国电报https://t.me/kejixm123_4","ws-opts":{"path":"/path/051111230910"},"server":"89.163.157.147","port":443,"uuid":"b8aedf50-c4f5-4255-b73d-3779db661d70","alterId":64,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"🇷🇺RU俄罗斯联邦电报https://t.me/kejixm123","server":"921tw.tfzhc.top","port":44319,"password":"7c877b3a-5fa0-47e7-ae3e-8e045788569b","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"🇯🇵JP日本电报https://t.me/kejixm123_4","ws-opts":{"path":"/path/243535322906"},"server":"185.160.24.48","port":443,"uuid":"a8a7fc23-c6e6-4505-a173-ae67dfb06f28","alterId":64,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸US美国电报https://t.me/kejixm123_8","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"lg4.zhujicn2.com"}},"server":"172.64.153.200","port":"443","uuid":"a8030afd-812a-4afe-a766-9c76ff3eddd4","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇳🇴NO挪威电报https://t.me/kejixm123","ws-opts":{"path":"/path/051111230910"},"server":"46.29.218.84","port":443,"uuid":"f7a456da-9886-4dd7-b193-4c59a726219c","alterId":64,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇨🇴CO哥伦比亚电报https://t.me/kejixm123","ws-opts":{"path":"/go","headers":{"host":"us02.gogogoo.cyou"}},"server":"188.114.97.7","port":443,"uuid":"db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"电报https://t.me/kejixm123_6","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"lg2.zhujicn2.com"}},"server":"198.41.212.30","port":"443","uuid":"105c635f-918d-4b2a-8c9d-d5426e94eb4b","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇬🇧GB英国电报https://t.me/kejixm123_5","ws-opts":{"path":"/path/051111230910"},"server":"83.142.225.59","port":443,"uuid":"5267ca71-97e6-44c8-8fb5-9fe4afe0954e","alterId":64,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"🇵🇭PH菲律宾电报https://t.me/kejixm123","server":"49.157.28.212","port":50000,"cipher":"aes-256-cfb","password":"3135771619"}
+  - {"type":"vmess","name":"🇺🇸US美国电报https://t.me/kejixm123_9","ws-opts":{"path":"/123","headers":{"host":"jparm.fineyoo.cf"}},"server":"172.67.216.5","port":443,"uuid":"bd5ee249-fe7b-4669-a6d9-b3f5eecb98e6","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸US美国电报https://t.me/kejixm123_10","ws-opts":{"path":"/path/152212033125","headers":{"host":"www.80449177.xyz"}},"server":"45.58.149.170","port":443,"uuid":"4242f9e0-6b7e-4257-9e93-7ad38015c46a","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸US美国电报https://t.me/kejixm123_11","ws-opts":{"path":"/123","headers":{"host":"usamd.ptuu.gq"}},"server":"172.67.144.150","port":443,"uuid":"33653796-feef-43fd-e7cc-1adccd79b7c7","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸US美国电报https://t.me/kejixm123_12","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"lg3.zhujicn2.com"}},"server":"172.64.144.100","port":"443","uuid":"6e9217de-ad7e-4a67-bd17-a6dca951733b","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇮🇱IL以色列电报https://t.me/kejixm123","ws-opts":{"path":"/","headers":{"host":"www.flieswiming.tk"}},"server":"www.flieswiming.tk","port":443,"uuid":"b7519a6f-c1de-4667-e606-b60c65d19078","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸US美国电报https://t.me/kejixm123_13","ws-opts":{"path":"/ceatvws","headers":{"host":"1.731808.tk"}},"server":"172.67.73.213","port":443,"uuid":"b71e3784-f171-4035-987a-df0ff4b4cd61","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇩🇪DE德国电报https://t.me/kejixm123_5","ws-opts":{"path":"/4ba99a39b90faa/","headers":{"host":"31.22.109.209"}},"server":"31.22.109.209","port":443,"uuid":"36793d2c-0d5a-4a84-8862-f9c93e9af5b5","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇨🇳CN中国电报https://t.me/kejixm123_4","ws-opts":{"path":"/japanese03","headers":{"host":"gz.daxun.cyou"}},"server":"gz.daxun.cyou","port":"20631","uuid":"4a4db4cd-6475-4d20-a353-776378e68072","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇭🇰HK香港电报https://t.me/kejixm123_5","ws-opts":{"path":"/vn01","headers":{"host":"paopao.v2.vn01.paopaocloud.cyou"}},"server":"az.hk01.paopaocloud.cyou","port":10019,"uuid":"d8c5b486-84bb-3887-a1d9-07455ea608f2","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇸🇬SG新加坡电报https://t.me/kejixm123_3","ws-opts":{"path":"/b26c74ee96d/"},"server":"sgp.naixii.xyz","port":443,"uuid":"0aabdcbd-805f-4f4c-ba24-b176e736b37d","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸US美国电报https://t.me/kejixm123_14","ws-opts":{"path":"/ray","headers":{"host":"eu.ptuu.tk"}},"server":"172.67.218.162","port":443,"uuid":"70d9bf20-3e6b-4cd3-ff28-b62567ff5a23","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇸🇬SG新加坡电报https://t.me/kejixm123_4","ws-opts":{"path":"/b26c74ee96d/","headers":{"host":"139.99.117.48"}},"server":"139.99.117.48","port":443,"uuid":"0aabdcbd-805f-4f4c-ba24-b176e736b37d","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇫🇷FR法国电报https://t.me/kejixm123","ws-opts":{"path":"/a54e284cb6/","headers":{"host":"PL.nexitally.xyz"}},"server":"PL.nexitally.xyz","port":443,"uuid":"54c6c823-4957-4c6c-b10c-359bc51f7cc3","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸US美国电报https://t.me/kejixm123_15","ws-opts":{"path":"/4befdd8a6/","headers":{"host":"sgp.kapok.buzz"}},"server":"sgp.kapok.buzz","port":"443","uuid":"c1bac6b8-934a-44e2-9cf2-ee0db1fc1c85","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇨🇳CN中国电报https://t.me/kejixm123_5","ws-opts":{"path":"/oooo","headers":{"host":"baidu.com"}},"server":"v29.heduian.online","port":"30866","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇭🇰HK香港电报https://t.me/kejixm123_6","ws-opts":{"path":"/v2ray","headers":{"host":"paopao.v2.hk02.paopaocloud.cyou"}},"server":"ah.yd01.paopaocloud.cyou","port":10020,"uuid":"d8c5b486-84bb-3887-a1d9-07455ea608f2","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"🇨🇳CN中国电报https://t.me/kejixm123_6","server":"221.131.165.89","port":57362,"cipher":"chacha20-ietf-poly1305","password":"kL9OzMCvMXuRI"}
+  - {"type":"ss","name":"🇨🇳CN中国电报https://t.me/kejixm123_7","server":"221.131.165.89","port":55434,"cipher":"chacha20-ietf-poly1305","password":"87btbhVO7c1Pm"}
+  - {"type":"ss","name":"🇨🇳CN中国电报https://t.me/kejixm123_8","server":"221.131.165.89","port":57124,"cipher":"chacha20-ietf-poly1305","password":"Lxjc2FLT5XXbt"}
+  - {"type":"ss","name":"🇨🇳CN中国电报https://t.me/kejixm123_9","server":"183.255.114.70","port":47092,"cipher":"chacha20-ietf-poly1305","password":"bQbU0JDyFjkGR"}
+  - {"type":"ss","name":"🇨🇳CN中国电报https://t.me/kejixm123_10","server":"118.212.143.4","port":47082,"cipher":"chacha20-ietf-poly1305","password":"WmbyWhbKN7td6"}
+  - {"type":"ss","name":"🇮🇷IR伊朗电报https://t.me/kejixm123","server":"178.253.52.110","port":4953,"cipher":"chacha20-ietf-poly1305","password":"xLmtNXU6arq32"}
+  - {"type":"ss","name":"🇭🇰HK香港电报https://t.me/kejixm123_7","server":"194.29.186.135","port":8439,"cipher":"chacha20-ietf-poly1305","password":"WOUkp3T89G8jH"}
+  - {"type":"ss","name":"🇨🇳CN中国电报https://t.me/kejixm123_11","server":"221.131.165.89","port":51872,"cipher":"chacha20-ietf-poly1305","password":"JbCHRtQy82qvQ"}
+  - {"type":"ss","name":"🇨🇳CN中国电报https://t.me/kejixm123_12","server":"221.131.165.89","port":53627,"cipher":"chacha20-ietf-poly1305","password":"9R9G875BNAaet"}
+  - {"type":"ss","name":"🇨🇳CN中国电报https://t.me/kejixm123_13","server":"221.131.165.89","port":45980,"cipher":"chacha20-ietf-poly1305","password":"M0c2qEuTYybZI"}
+  - {"type":"ss","name":"🇨🇳CN中国电报https://t.me/kejixm123_14","server":"183.255.114.70","port":48449,"cipher":"chacha20-ietf-poly1305","password":"IlGcBJtH5FS2F"}
+  - {"type":"ss","name":"🇨🇳CN中国电报https://t.me/kejixm123_15","server":"221.131.165.89","port":56637,"cipher":"chacha20-ietf-poly1305","password":"wFcKAbl2OQnOU"}
+  - {"type":"ss","name":"🇸🇬SG新加坡电报https://t.me/kejixm123_5","server":"209.17.118.77","port":6007,"cipher":"chacha20-ietf-poly1305","password":"nv1bMsr9wIYPx"}
+  - {"type":"ss","name":"🇨🇳CN中国电报https://t.me/kejixm123_16","server":"221.131.165.89","port":57582,"cipher":"chacha20-ietf-poly1305","password":"wN27X6Z4nE7D5"}
+  - {"type":"ss","name":"🇨🇳CN中国电报https://t.me/kejixm123_17","server":"221.131.165.89","port":57583,"cipher":"chacha20-ietf-poly1305","password":"g0Qb4iMtNWeaI"}
+  - {"type":"ss","name":"🇨🇳CN中国电报https://t.me/kejixm123_18","server":"221.131.165.89","port":57584,"cipher":"chacha20-ietf-poly1305","password":"cW50UNUHqCMED"}
+  - {"type":"ss","name":"🇨🇳CN中国电报https://t.me/kejixm123_19","server":"221.131.165.89","port":59446,"cipher":"chacha20-ietf-poly1305","password":"3c1f3PA4GQZB8"}
+  - {"type":"ss","name":"🇨🇳CN中国电报https://t.me/kejixm123_20","server":"221.131.165.89","port":59448,"cipher":"chacha20-ietf-poly1305","password":"ecryauxZk3s4e"}
+  - {"type":"ss","name":"🇨🇳CN中国电报https://t.me/kejixm123_21","server":"221.131.165.89","port":59452,"cipher":"chacha20-ietf-poly1305","password":"jNAtRFep3rD6R"}
+  - {"type":"ss","name":"🇨🇳CN中国电报https://t.me/kejixm123_22","server":"221.131.165.89","port":59454,"cipher":"chacha20-ietf-poly1305","password":"aQQCKo9v2OLmg"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 白嫖节点@kejixm123_1
-      - 白嫖节点@kejixm123_2
-      - 🇺🇸_US_美国_白嫖节点@kejixm123_1
-      - 🇺🇸_US_美国_白嫖节点@kejixm123_2
-      - 🇨🇳_CN_中国_白嫖节点@kejixm123_1
-      - 🇬🇧_GB_英国_白嫖节点@kejixm123_1
-      - 🇯🇵_JP_日本_白嫖节点@kejixm123
-      - 🇩🇪_DE_德国_白嫖节点@kejixm123_1
-      - 🇭🇰_HK_香港_白嫖节点@kejixm123_1
-      - 🇩🇪_DE_德国_白嫖节点@kejixm123_2
-      - 🇨🇳_CN_中国_白嫖节点@kejixm123_2
-      - 白嫖节点@kejixm123_3
-      - 🇺🇸_US_美国_白嫖节点@kejixm123_3
-      - 白嫖节点@kejixm123_4
-      - 🇺🇸_US_美国_白嫖节点@kejixm123_4
-      - 🇳🇴_NO_挪威_白嫖节点@kejixm123
-      - 🇬🇧_GB_英国_白嫖节点@kejixm123_2
-      - 白嫖节点@kejixm123_5
-      - 白嫖节点@kejixm123_6
-      - 🇹🇭_TH_泰国_白嫖节点@kejixm123
-      - 🇸🇬_SG_新加坡_白嫖节点@kejixm123_1
-      - 🇩🇰_DK_丹麦_白嫖节点@kejixm123
-      - 🇺🇸_US_美国_白嫖节点@kejixm123_5
-      - 🇺🇸_US_美国_白嫖节点@kejixm123_6
-      - 🇸🇬_SG_新加坡_白嫖节点@kejixm123_2
-      - 🇸🇬_SG_新加坡_白嫖节点@kejixm123_3
-      - 🇱🇺_LU_卢森堡_白嫖节点@kejixm123
-      - 🇨🇳_CN_中国_白嫖节点@kejixm123_3
-      - 🇭🇰_HK_香港_白嫖节点@kejixm123_2
-      - 🇨🇳_CN_中国_白嫖节点@kejixm123_4
-      - 🇨🇳_CN_中国_白嫖节点@kejixm123_5
+      - 🇩🇪DE德国电报https://t.me/kejixm123_1
+      - 电报https://t.me/kejixm123_1
+      - 🇺🇸US美国电报https://t.me/kejixm123_1
+      - 🇳🇱NL荷兰电报https://t.me/kejixm123_1
+      - 电报https://t.me/kejixm123_2
+      - 🇭🇰HK香港电报https://t.me/kejixm123_1
+      - 🇺🇸US美国电报https://t.me/kejixm123_2
+      - 🇺🇸US美国电报https://t.me/kejixm123_3
+      - 🇩🇪DE德国电报https://t.me/kejixm123_2
+      - 🇸🇬SG新加坡电报https://t.me/kejixm123_1
+      - 🇨🇳CN中国电报https://t.me/kejixm123_1
+      - 🇯🇵JP日本电报https://t.me/kejixm123_1
+      - 🇬🇧GB英国电报https://t.me/kejixm123_1
+      - 🇺🇸US美国电报https://t.me/kejixm123_4
+      - 电报https://t.me/kejixm123_3
+      - 🇨🇳CN中国电报https://t.me/kejixm123_2
+      - 🇯🇵JP日本电报https://t.me/kejixm123_2
+      - 🇨🇳CN中国电报https://t.me/kejixm123_3
+      - 🇬🇧GB英国电报https://t.me/kejixm123_2
+      - 电报https://t.me/kejixm123_4
+      - 🇲🇾MY马来西亚电报https://t.me/kejixm123
+      - 🇬🇧GB英国电报https://t.me/kejixm123_3
+      - 🇭🇰HK香港电报https://t.me/kejixm123_2
+      - 🇨🇭CH瑞士电报https://t.me/kejixm123
+      - 电报https://t.me/kejixm123_5
+      - 🇺🇸US美国电报https://t.me/kejixm123_5
+      - 🇭🇰HK香港电报https://t.me/kejixm123_3
+      - 🇺🇸US美国电报https://t.me/kejixm123_6
+      - 🇬🇧GB英国电报https://t.me/kejixm123_4
+      - 🇧🇬BG保加利亚电报https://t.me/kejixm123
+      - 🇯🇵JP日本电报https://t.me/kejixm123_3
+      - 🇩🇪DE德国电报https://t.me/kejixm123_3
+      - 🇸🇬SG新加坡电报https://t.me/kejixm123_2
+      - 🇭🇰HK香港电报https://t.me/kejixm123_4
+      - 🇳🇱NL荷兰电报https://t.me/kejixm123_2
+      - 🇺🇸US美国电报https://t.me/kejixm123_7
+      - 🇩🇪DE德国电报https://t.me/kejixm123_4
+      - 🇷🇺RU俄罗斯联邦电报https://t.me/kejixm123
+      - 🇯🇵JP日本电报https://t.me/kejixm123_4
+      - 🇺🇸US美国电报https://t.me/kejixm123_8
+      - 🇳🇴NO挪威电报https://t.me/kejixm123
+      - 🇨🇴CO哥伦比亚电报https://t.me/kejixm123
+      - 电报https://t.me/kejixm123_6
+      - 🇬🇧GB英国电报https://t.me/kejixm123_5
+      - 🇵🇭PH菲律宾电报https://t.me/kejixm123
+      - 🇺🇸US美国电报https://t.me/kejixm123_9
+      - 🇺🇸US美国电报https://t.me/kejixm123_10
+      - 🇺🇸US美国电报https://t.me/kejixm123_11
+      - 🇺🇸US美国电报https://t.me/kejixm123_12
+      - 🇮🇱IL以色列电报https://t.me/kejixm123
+      - 🇺🇸US美国电报https://t.me/kejixm123_13
+      - 🇩🇪DE德国电报https://t.me/kejixm123_5
+      - 🇨🇳CN中国电报https://t.me/kejixm123_4
+      - 🇭🇰HK香港电报https://t.me/kejixm123_5
+      - 🇸🇬SG新加坡电报https://t.me/kejixm123_3
+      - 🇺🇸US美国电报https://t.me/kejixm123_14
+      - 🇸🇬SG新加坡电报https://t.me/kejixm123_4
+      - 🇫🇷FR法国电报https://t.me/kejixm123
+      - 🇺🇸US美国电报https://t.me/kejixm123_15
+      - 🇨🇳CN中国电报https://t.me/kejixm123_5
+      - 🇭🇰HK香港电报https://t.me/kejixm123_6
+      - 🇨🇳CN中国电报https://t.me/kejixm123_6
+      - 🇨🇳CN中国电报https://t.me/kejixm123_7
+      - 🇨🇳CN中国电报https://t.me/kejixm123_8
+      - 🇨🇳CN中国电报https://t.me/kejixm123_9
+      - 🇨🇳CN中国电报https://t.me/kejixm123_10
+      - 🇮🇷IR伊朗电报https://t.me/kejixm123
+      - 🇭🇰HK香港电报https://t.me/kejixm123_7
+      - 🇨🇳CN中国电报https://t.me/kejixm123_11
+      - 🇨🇳CN中国电报https://t.me/kejixm123_12
+      - 🇨🇳CN中国电报https://t.me/kejixm123_13
+      - 🇨🇳CN中国电报https://t.me/kejixm123_14
+      - 🇨🇳CN中国电报https://t.me/kejixm123_15
+      - 🇸🇬SG新加坡电报https://t.me/kejixm123_5
+      - 🇨🇳CN中国电报https://t.me/kejixm123_16
+      - 🇨🇳CN中国电报https://t.me/kejixm123_17
+      - 🇨🇳CN中国电报https://t.me/kejixm123_18
+      - 🇨🇳CN中国电报https://t.me/kejixm123_19
+      - 🇨🇳CN中国电报https://t.me/kejixm123_20
+      - 🇨🇳CN中国电报https://t.me/kejixm123_21
+      - 🇨🇳CN中国电报https://t.me/kejixm123_22
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 白嫖节点@kejixm123_1
-      - 白嫖节点@kejixm123_2
-      - 🇺🇸_US_美国_白嫖节点@kejixm123_1
-      - 🇺🇸_US_美国_白嫖节点@kejixm123_2
-      - 🇨🇳_CN_中国_白嫖节点@kejixm123_1
-      - 🇬🇧_GB_英国_白嫖节点@kejixm123_1
-      - 🇯🇵_JP_日本_白嫖节点@kejixm123
-      - 🇩🇪_DE_德国_白嫖节点@kejixm123_1
-      - 🇭🇰_HK_香港_白嫖节点@kejixm123_1
-      - 🇩🇪_DE_德国_白嫖节点@kejixm123_2
-      - 🇨🇳_CN_中国_白嫖节点@kejixm123_2
-      - 白嫖节点@kejixm123_3
-      - 🇺🇸_US_美国_白嫖节点@kejixm123_3
-      - 白嫖节点@kejixm123_4
-      - 🇺🇸_US_美国_白嫖节点@kejixm123_4
-      - 🇳🇴_NO_挪威_白嫖节点@kejixm123
-      - 🇬🇧_GB_英国_白嫖节点@kejixm123_2
-      - 白嫖节点@kejixm123_5
-      - 白嫖节点@kejixm123_6
-      - 🇹🇭_TH_泰国_白嫖节点@kejixm123
-      - 🇸🇬_SG_新加坡_白嫖节点@kejixm123_1
-      - 🇩🇰_DK_丹麦_白嫖节点@kejixm123
-      - 🇺🇸_US_美国_白嫖节点@kejixm123_5
-      - 🇺🇸_US_美国_白嫖节点@kejixm123_6
-      - 🇸🇬_SG_新加坡_白嫖节点@kejixm123_2
-      - 🇸🇬_SG_新加坡_白嫖节点@kejixm123_3
-      - 🇱🇺_LU_卢森堡_白嫖节点@kejixm123
-      - 🇨🇳_CN_中国_白嫖节点@kejixm123_3
-      - 🇭🇰_HK_香港_白嫖节点@kejixm123_2
-      - 🇨🇳_CN_中国_白嫖节点@kejixm123_4
-      - 🇨🇳_CN_中国_白嫖节点@kejixm123_5
+      - 🇩🇪DE德国电报https://t.me/kejixm123_1
+      - 电报https://t.me/kejixm123_1
+      - 🇺🇸US美国电报https://t.me/kejixm123_1
+      - 🇳🇱NL荷兰电报https://t.me/kejixm123_1
+      - 电报https://t.me/kejixm123_2
+      - 🇭🇰HK香港电报https://t.me/kejixm123_1
+      - 🇺🇸US美国电报https://t.me/kejixm123_2
+      - 🇺🇸US美国电报https://t.me/kejixm123_3
+      - 🇩🇪DE德国电报https://t.me/kejixm123_2
+      - 🇸🇬SG新加坡电报https://t.me/kejixm123_1
+      - 🇨🇳CN中国电报https://t.me/kejixm123_1
+      - 🇯🇵JP日本电报https://t.me/kejixm123_1
+      - 🇬🇧GB英国电报https://t.me/kejixm123_1
+      - 🇺🇸US美国电报https://t.me/kejixm123_4
+      - 电报https://t.me/kejixm123_3
+      - 🇨🇳CN中国电报https://t.me/kejixm123_2
+      - 🇯🇵JP日本电报https://t.me/kejixm123_2
+      - 🇨🇳CN中国电报https://t.me/kejixm123_3
+      - 🇬🇧GB英国电报https://t.me/kejixm123_2
+      - 电报https://t.me/kejixm123_4
+      - 🇲🇾MY马来西亚电报https://t.me/kejixm123
+      - 🇬🇧GB英国电报https://t.me/kejixm123_3
+      - 🇭🇰HK香港电报https://t.me/kejixm123_2
+      - 🇨🇭CH瑞士电报https://t.me/kejixm123
+      - 电报https://t.me/kejixm123_5
+      - 🇺🇸US美国电报https://t.me/kejixm123_5
+      - 🇭🇰HK香港电报https://t.me/kejixm123_3
+      - 🇺🇸US美国电报https://t.me/kejixm123_6
+      - 🇬🇧GB英国电报https://t.me/kejixm123_4
+      - 🇧🇬BG保加利亚电报https://t.me/kejixm123
+      - 🇯🇵JP日本电报https://t.me/kejixm123_3
+      - 🇩🇪DE德国电报https://t.me/kejixm123_3
+      - 🇸🇬SG新加坡电报https://t.me/kejixm123_2
+      - 🇭🇰HK香港电报https://t.me/kejixm123_4
+      - 🇳🇱NL荷兰电报https://t.me/kejixm123_2
+      - 🇺🇸US美国电报https://t.me/kejixm123_7
+      - 🇩🇪DE德国电报https://t.me/kejixm123_4
+      - 🇷🇺RU俄罗斯联邦电报https://t.me/kejixm123
+      - 🇯🇵JP日本电报https://t.me/kejixm123_4
+      - 🇺🇸US美国电报https://t.me/kejixm123_8
+      - 🇳🇴NO挪威电报https://t.me/kejixm123
+      - 🇨🇴CO哥伦比亚电报https://t.me/kejixm123
+      - 电报https://t.me/kejixm123_6
+      - 🇬🇧GB英国电报https://t.me/kejixm123_5
+      - 🇵🇭PH菲律宾电报https://t.me/kejixm123
+      - 🇺🇸US美国电报https://t.me/kejixm123_9
+      - 🇺🇸US美国电报https://t.me/kejixm123_10
+      - 🇺🇸US美国电报https://t.me/kejixm123_11
+      - 🇺🇸US美国电报https://t.me/kejixm123_12
+      - 🇮🇱IL以色列电报https://t.me/kejixm123
+      - 🇺🇸US美国电报https://t.me/kejixm123_13
+      - 🇩🇪DE德国电报https://t.me/kejixm123_5
+      - 🇨🇳CN中国电报https://t.me/kejixm123_4
+      - 🇭🇰HK香港电报https://t.me/kejixm123_5
+      - 🇸🇬SG新加坡电报https://t.me/kejixm123_3
+      - 🇺🇸US美国电报https://t.me/kejixm123_14
+      - 🇸🇬SG新加坡电报https://t.me/kejixm123_4
+      - 🇫🇷FR法国电报https://t.me/kejixm123
+      - 🇺🇸US美国电报https://t.me/kejixm123_15
+      - 🇨🇳CN中国电报https://t.me/kejixm123_5
+      - 🇭🇰HK香港电报https://t.me/kejixm123_6
+      - 🇨🇳CN中国电报https://t.me/kejixm123_6
+      - 🇨🇳CN中国电报https://t.me/kejixm123_7
+      - 🇨🇳CN中国电报https://t.me/kejixm123_8
+      - 🇨🇳CN中国电报https://t.me/kejixm123_9
+      - 🇨🇳CN中国电报https://t.me/kejixm123_10
+      - 🇮🇷IR伊朗电报https://t.me/kejixm123
+      - 🇭🇰HK香港电报https://t.me/kejixm123_7
+      - 🇨🇳CN中国电报https://t.me/kejixm123_11
+      - 🇨🇳CN中国电报https://t.me/kejixm123_12
+      - 🇨🇳CN中国电报https://t.me/kejixm123_13
+      - 🇨🇳CN中国电报https://t.me/kejixm123_14
+      - 🇨🇳CN中国电报https://t.me/kejixm123_15
+      - 🇸🇬SG新加坡电报https://t.me/kejixm123_5
+      - 🇨🇳CN中国电报https://t.me/kejixm123_16
+      - 🇨🇳CN中国电报https://t.me/kejixm123_17
+      - 🇨🇳CN中国电报https://t.me/kejixm123_18
+      - 🇨🇳CN中国电报https://t.me/kejixm123_19
+      - 🇨🇳CN中国电报https://t.me/kejixm123_20
+      - 🇨🇳CN中国电报https://t.me/kejixm123_21
+      - 🇨🇳CN中国电报https://t.me/kejixm123_22
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 白嫖节点@kejixm123_1
-      - 白嫖节点@kejixm123_2
-      - 🇺🇸_US_美国_白嫖节点@kejixm123_1
-      - 🇺🇸_US_美国_白嫖节点@kejixm123_2
-      - 🇨🇳_CN_中国_白嫖节点@kejixm123_1
-      - 🇬🇧_GB_英国_白嫖节点@kejixm123_1
-      - 🇯🇵_JP_日本_白嫖节点@kejixm123
-      - 🇩🇪_DE_德国_白嫖节点@kejixm123_1
-      - 🇭🇰_HK_香港_白嫖节点@kejixm123_1
-      - 🇩🇪_DE_德国_白嫖节点@kejixm123_2
-      - 🇨🇳_CN_中国_白嫖节点@kejixm123_2
-      - 白嫖节点@kejixm123_3
-      - 🇺🇸_US_美国_白嫖节点@kejixm123_3
-      - 白嫖节点@kejixm123_4
-      - 🇺🇸_US_美国_白嫖节点@kejixm123_4
-      - 🇳🇴_NO_挪威_白嫖节点@kejixm123
-      - 🇬🇧_GB_英国_白嫖节点@kejixm123_2
-      - 白嫖节点@kejixm123_5
-      - 白嫖节点@kejixm123_6
-      - 🇹🇭_TH_泰国_白嫖节点@kejixm123
-      - 🇸🇬_SG_新加坡_白嫖节点@kejixm123_1
-      - 🇩🇰_DK_丹麦_白嫖节点@kejixm123
-      - 🇺🇸_US_美国_白嫖节点@kejixm123_5
-      - 🇺🇸_US_美国_白嫖节点@kejixm123_6
-      - 🇸🇬_SG_新加坡_白嫖节点@kejixm123_2
-      - 🇸🇬_SG_新加坡_白嫖节点@kejixm123_3
-      - 🇱🇺_LU_卢森堡_白嫖节点@kejixm123
-      - 🇨🇳_CN_中国_白嫖节点@kejixm123_3
-      - 🇭🇰_HK_香港_白嫖节点@kejixm123_2
-      - 🇨🇳_CN_中国_白嫖节点@kejixm123_4
-      - 🇨🇳_CN_中国_白嫖节点@kejixm123_5
+      - 🇩🇪DE德国电报https://t.me/kejixm123_1
+      - 电报https://t.me/kejixm123_1
+      - 🇺🇸US美国电报https://t.me/kejixm123_1
+      - 🇳🇱NL荷兰电报https://t.me/kejixm123_1
+      - 电报https://t.me/kejixm123_2
+      - 🇭🇰HK香港电报https://t.me/kejixm123_1
+      - 🇺🇸US美国电报https://t.me/kejixm123_2
+      - 🇺🇸US美国电报https://t.me/kejixm123_3
+      - 🇩🇪DE德国电报https://t.me/kejixm123_2
+      - 🇸🇬SG新加坡电报https://t.me/kejixm123_1
+      - 🇨🇳CN中国电报https://t.me/kejixm123_1
+      - 🇯🇵JP日本电报https://t.me/kejixm123_1
+      - 🇬🇧GB英国电报https://t.me/kejixm123_1
+      - 🇺🇸US美国电报https://t.me/kejixm123_4
+      - 电报https://t.me/kejixm123_3
+      - 🇨🇳CN中国电报https://t.me/kejixm123_2
+      - 🇯🇵JP日本电报https://t.me/kejixm123_2
+      - 🇨🇳CN中国电报https://t.me/kejixm123_3
+      - 🇬🇧GB英国电报https://t.me/kejixm123_2
+      - 电报https://t.me/kejixm123_4
+      - 🇲🇾MY马来西亚电报https://t.me/kejixm123
+      - 🇬🇧GB英国电报https://t.me/kejixm123_3
+      - 🇭🇰HK香港电报https://t.me/kejixm123_2
+      - 🇨🇭CH瑞士电报https://t.me/kejixm123
+      - 电报https://t.me/kejixm123_5
+      - 🇺🇸US美国电报https://t.me/kejixm123_5
+      - 🇭🇰HK香港电报https://t.me/kejixm123_3
+      - 🇺🇸US美国电报https://t.me/kejixm123_6
+      - 🇬🇧GB英国电报https://t.me/kejixm123_4
+      - 🇧🇬BG保加利亚电报https://t.me/kejixm123
+      - 🇯🇵JP日本电报https://t.me/kejixm123_3
+      - 🇩🇪DE德国电报https://t.me/kejixm123_3
+      - 🇸🇬SG新加坡电报https://t.me/kejixm123_2
+      - 🇭🇰HK香港电报https://t.me/kejixm123_4
+      - 🇳🇱NL荷兰电报https://t.me/kejixm123_2
+      - 🇺🇸US美国电报https://t.me/kejixm123_7
+      - 🇩🇪DE德国电报https://t.me/kejixm123_4
+      - 🇷🇺RU俄罗斯联邦电报https://t.me/kejixm123
+      - 🇯🇵JP日本电报https://t.me/kejixm123_4
+      - 🇺🇸US美国电报https://t.me/kejixm123_8
+      - 🇳🇴NO挪威电报https://t.me/kejixm123
+      - 🇨🇴CO哥伦比亚电报https://t.me/kejixm123
+      - 电报https://t.me/kejixm123_6
+      - 🇬🇧GB英国电报https://t.me/kejixm123_5
+      - 🇵🇭PH菲律宾电报https://t.me/kejixm123
+      - 🇺🇸US美国电报https://t.me/kejixm123_9
+      - 🇺🇸US美国电报https://t.me/kejixm123_10
+      - 🇺🇸US美国电报https://t.me/kejixm123_11
+      - 🇺🇸US美国电报https://t.me/kejixm123_12
+      - 🇮🇱IL以色列电报https://t.me/kejixm123
+      - 🇺🇸US美国电报https://t.me/kejixm123_13
+      - 🇩🇪DE德国电报https://t.me/kejixm123_5
+      - 🇨🇳CN中国电报https://t.me/kejixm123_4
+      - 🇭🇰HK香港电报https://t.me/kejixm123_5
+      - 🇸🇬SG新加坡电报https://t.me/kejixm123_3
+      - 🇺🇸US美国电报https://t.me/kejixm123_14
+      - 🇸🇬SG新加坡电报https://t.me/kejixm123_4
+      - 🇫🇷FR法国电报https://t.me/kejixm123
+      - 🇺🇸US美国电报https://t.me/kejixm123_15
+      - 🇨🇳CN中国电报https://t.me/kejixm123_5
+      - 🇭🇰HK香港电报https://t.me/kejixm123_6
+      - 🇨🇳CN中国电报https://t.me/kejixm123_6
+      - 🇨🇳CN中国电报https://t.me/kejixm123_7
+      - 🇨🇳CN中国电报https://t.me/kejixm123_8
+      - 🇨🇳CN中国电报https://t.me/kejixm123_9
+      - 🇨🇳CN中国电报https://t.me/kejixm123_10
+      - 🇮🇷IR伊朗电报https://t.me/kejixm123
+      - 🇭🇰HK香港电报https://t.me/kejixm123_7
+      - 🇨🇳CN中国电报https://t.me/kejixm123_11
+      - 🇨🇳CN中国电报https://t.me/kejixm123_12
+      - 🇨🇳CN中国电报https://t.me/kejixm123_13
+      - 🇨🇳CN中国电报https://t.me/kejixm123_14
+      - 🇨🇳CN中国电报https://t.me/kejixm123_15
+      - 🇸🇬SG新加坡电报https://t.me/kejixm123_5
+      - 🇨🇳CN中国电报https://t.me/kejixm123_16
+      - 🇨🇳CN中国电报https://t.me/kejixm123_17
+      - 🇨🇳CN中国电报https://t.me/kejixm123_18
+      - 🇨🇳CN中国电报https://t.me/kejixm123_19
+      - 🇨🇳CN中国电报https://t.me/kejixm123_20
+      - 🇨🇳CN中国电报https://t.me/kejixm123_21
+      - 🇨🇳CN中国电报https://t.me/kejixm123_22
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 白嫖节点@kejixm123_1
-      - 白嫖节点@kejixm123_2
-      - 🇺🇸_US_美国_白嫖节点@kejixm123_1
-      - 🇺🇸_US_美国_白嫖节点@kejixm123_2
-      - 🇨🇳_CN_中国_白嫖节点@kejixm123_1
-      - 🇬🇧_GB_英国_白嫖节点@kejixm123_1
-      - 🇯🇵_JP_日本_白嫖节点@kejixm123
-      - 🇩🇪_DE_德国_白嫖节点@kejixm123_1
-      - 🇭🇰_HK_香港_白嫖节点@kejixm123_1
-      - 🇩🇪_DE_德国_白嫖节点@kejixm123_2
-      - 🇨🇳_CN_中国_白嫖节点@kejixm123_2
-      - 白嫖节点@kejixm123_3
-      - 🇺🇸_US_美国_白嫖节点@kejixm123_3
-      - 白嫖节点@kejixm123_4
-      - 🇺🇸_US_美国_白嫖节点@kejixm123_4
-      - 🇳🇴_NO_挪威_白嫖节点@kejixm123
-      - 🇬🇧_GB_英国_白嫖节点@kejixm123_2
-      - 白嫖节点@kejixm123_5
-      - 白嫖节点@kejixm123_6
-      - 🇹🇭_TH_泰国_白嫖节点@kejixm123
-      - 🇸🇬_SG_新加坡_白嫖节点@kejixm123_1
-      - 🇩🇰_DK_丹麦_白嫖节点@kejixm123
-      - 🇺🇸_US_美国_白嫖节点@kejixm123_5
-      - 🇺🇸_US_美国_白嫖节点@kejixm123_6
-      - 🇸🇬_SG_新加坡_白嫖节点@kejixm123_2
-      - 🇸🇬_SG_新加坡_白嫖节点@kejixm123_3
-      - 🇱🇺_LU_卢森堡_白嫖节点@kejixm123
-      - 🇨🇳_CN_中国_白嫖节点@kejixm123_3
-      - 🇭🇰_HK_香港_白嫖节点@kejixm123_2
-      - 🇨🇳_CN_中国_白嫖节点@kejixm123_4
-      - 🇨🇳_CN_中国_白嫖节点@kejixm123_5
+      - 🇩🇪DE德国电报https://t.me/kejixm123_1
+      - 电报https://t.me/kejixm123_1
+      - 🇺🇸US美国电报https://t.me/kejixm123_1
+      - 🇳🇱NL荷兰电报https://t.me/kejixm123_1
+      - 电报https://t.me/kejixm123_2
+      - 🇭🇰HK香港电报https://t.me/kejixm123_1
+      - 🇺🇸US美国电报https://t.me/kejixm123_2
+      - 🇺🇸US美国电报https://t.me/kejixm123_3
+      - 🇩🇪DE德国电报https://t.me/kejixm123_2
+      - 🇸🇬SG新加坡电报https://t.me/kejixm123_1
+      - 🇨🇳CN中国电报https://t.me/kejixm123_1
+      - 🇯🇵JP日本电报https://t.me/kejixm123_1
+      - 🇬🇧GB英国电报https://t.me/kejixm123_1
+      - 🇺🇸US美国电报https://t.me/kejixm123_4
+      - 电报https://t.me/kejixm123_3
+      - 🇨🇳CN中国电报https://t.me/kejixm123_2
+      - 🇯🇵JP日本电报https://t.me/kejixm123_2
+      - 🇨🇳CN中国电报https://t.me/kejixm123_3
+      - 🇬🇧GB英国电报https://t.me/kejixm123_2
+      - 电报https://t.me/kejixm123_4
+      - 🇲🇾MY马来西亚电报https://t.me/kejixm123
+      - 🇬🇧GB英国电报https://t.me/kejixm123_3
+      - 🇭🇰HK香港电报https://t.me/kejixm123_2
+      - 🇨🇭CH瑞士电报https://t.me/kejixm123
+      - 电报https://t.me/kejixm123_5
+      - 🇺🇸US美国电报https://t.me/kejixm123_5
+      - 🇭🇰HK香港电报https://t.me/kejixm123_3
+      - 🇺🇸US美国电报https://t.me/kejixm123_6
+      - 🇬🇧GB英国电报https://t.me/kejixm123_4
+      - 🇧🇬BG保加利亚电报https://t.me/kejixm123
+      - 🇯🇵JP日本电报https://t.me/kejixm123_3
+      - 🇩🇪DE德国电报https://t.me/kejixm123_3
+      - 🇸🇬SG新加坡电报https://t.me/kejixm123_2
+      - 🇭🇰HK香港电报https://t.me/kejixm123_4
+      - 🇳🇱NL荷兰电报https://t.me/kejixm123_2
+      - 🇺🇸US美国电报https://t.me/kejixm123_7
+      - 🇩🇪DE德国电报https://t.me/kejixm123_4
+      - 🇷🇺RU俄罗斯联邦电报https://t.me/kejixm123
+      - 🇯🇵JP日本电报https://t.me/kejixm123_4
+      - 🇺🇸US美国电报https://t.me/kejixm123_8
+      - 🇳🇴NO挪威电报https://t.me/kejixm123
+      - 🇨🇴CO哥伦比亚电报https://t.me/kejixm123
+      - 电报https://t.me/kejixm123_6
+      - 🇬🇧GB英国电报https://t.me/kejixm123_5
+      - 🇵🇭PH菲律宾电报https://t.me/kejixm123
+      - 🇺🇸US美国电报https://t.me/kejixm123_9
+      - 🇺🇸US美国电报https://t.me/kejixm123_10
+      - 🇺🇸US美国电报https://t.me/kejixm123_11
+      - 🇺🇸US美国电报https://t.me/kejixm123_12
+      - 🇮🇱IL以色列电报https://t.me/kejixm123
+      - 🇺🇸US美国电报https://t.me/kejixm123_13
+      - 🇩🇪DE德国电报https://t.me/kejixm123_5
+      - 🇨🇳CN中国电报https://t.me/kejixm123_4
+      - 🇭🇰HK香港电报https://t.me/kejixm123_5
+      - 🇸🇬SG新加坡电报https://t.me/kejixm123_3
+      - 🇺🇸US美国电报https://t.me/kejixm123_14
+      - 🇸🇬SG新加坡电报https://t.me/kejixm123_4
+      - 🇫🇷FR法国电报https://t.me/kejixm123
+      - 🇺🇸US美国电报https://t.me/kejixm123_15
+      - 🇨🇳CN中国电报https://t.me/kejixm123_5
+      - 🇭🇰HK香港电报https://t.me/kejixm123_6
+      - 🇨🇳CN中国电报https://t.me/kejixm123_6
+      - 🇨🇳CN中国电报https://t.me/kejixm123_7
+      - 🇨🇳CN中国电报https://t.me/kejixm123_8
+      - 🇨🇳CN中国电报https://t.me/kejixm123_9
+      - 🇨🇳CN中国电报https://t.me/kejixm123_10
+      - 🇮🇷IR伊朗电报https://t.me/kejixm123
+      - 🇭🇰HK香港电报https://t.me/kejixm123_7
+      - 🇨🇳CN中国电报https://t.me/kejixm123_11
+      - 🇨🇳CN中国电报https://t.me/kejixm123_12
+      - 🇨🇳CN中国电报https://t.me/kejixm123_13
+      - 🇨🇳CN中国电报https://t.me/kejixm123_14
+      - 🇨🇳CN中国电报https://t.me/kejixm123_15
+      - 🇸🇬SG新加坡电报https://t.me/kejixm123_5
+      - 🇨🇳CN中国电报https://t.me/kejixm123_16
+      - 🇨🇳CN中国电报https://t.me/kejixm123_17
+      - 🇨🇳CN中国电报https://t.me/kejixm123_18
+      - 🇨🇳CN中国电报https://t.me/kejixm123_19
+      - 🇨🇳CN中国电报https://t.me/kejixm123_20
+      - 🇨🇳CN中国电报https://t.me/kejixm123_21
+      - 🇨🇳CN中国电报https://t.me/kejixm123_22
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 白嫖节点@kejixm123_1
-      - 白嫖节点@kejixm123_2
-      - 🇺🇸_US_美国_白嫖节点@kejixm123_1
-      - 🇺🇸_US_美国_白嫖节点@kejixm123_2
-      - 🇨🇳_CN_中国_白嫖节点@kejixm123_1
-      - 🇬🇧_GB_英国_白嫖节点@kejixm123_1
-      - 🇯🇵_JP_日本_白嫖节点@kejixm123
-      - 🇩🇪_DE_德国_白嫖节点@kejixm123_1
-      - 🇭🇰_HK_香港_白嫖节点@kejixm123_1
-      - 🇩🇪_DE_德国_白嫖节点@kejixm123_2
-      - 🇨🇳_CN_中国_白嫖节点@kejixm123_2
-      - 白嫖节点@kejixm123_3
-      - 🇺🇸_US_美国_白嫖节点@kejixm123_3
-      - 白嫖节点@kejixm123_4
-      - 🇺🇸_US_美国_白嫖节点@kejixm123_4
-      - 🇳🇴_NO_挪威_白嫖节点@kejixm123
-      - 🇬🇧_GB_英国_白嫖节点@kejixm123_2
-      - 白嫖节点@kejixm123_5
-      - 白嫖节点@kejixm123_6
-      - 🇹🇭_TH_泰国_白嫖节点@kejixm123
-      - 🇸🇬_SG_新加坡_白嫖节点@kejixm123_1
-      - 🇩🇰_DK_丹麦_白嫖节点@kejixm123
-      - 🇺🇸_US_美国_白嫖节点@kejixm123_5
-      - 🇺🇸_US_美国_白嫖节点@kejixm123_6
-      - 🇸🇬_SG_新加坡_白嫖节点@kejixm123_2
-      - 🇸🇬_SG_新加坡_白嫖节点@kejixm123_3
-      - 🇱🇺_LU_卢森堡_白嫖节点@kejixm123
-      - 🇨🇳_CN_中国_白嫖节点@kejixm123_3
-      - 🇭🇰_HK_香港_白嫖节点@kejixm123_2
-      - 🇨🇳_CN_中国_白嫖节点@kejixm123_4
-      - 🇨🇳_CN_中国_白嫖节点@kejixm123_5
+      - 🇩🇪DE德国电报https://t.me/kejixm123_1
+      - 电报https://t.me/kejixm123_1
+      - 🇺🇸US美国电报https://t.me/kejixm123_1
+      - 🇳🇱NL荷兰电报https://t.me/kejixm123_1
+      - 电报https://t.me/kejixm123_2
+      - 🇭🇰HK香港电报https://t.me/kejixm123_1
+      - 🇺🇸US美国电报https://t.me/kejixm123_2
+      - 🇺🇸US美国电报https://t.me/kejixm123_3
+      - 🇩🇪DE德国电报https://t.me/kejixm123_2
+      - 🇸🇬SG新加坡电报https://t.me/kejixm123_1
+      - 🇨🇳CN中国电报https://t.me/kejixm123_1
+      - 🇯🇵JP日本电报https://t.me/kejixm123_1
+      - 🇬🇧GB英国电报https://t.me/kejixm123_1
+      - 🇺🇸US美国电报https://t.me/kejixm123_4
+      - 电报https://t.me/kejixm123_3
+      - 🇨🇳CN中国电报https://t.me/kejixm123_2
+      - 🇯🇵JP日本电报https://t.me/kejixm123_2
+      - 🇨🇳CN中国电报https://t.me/kejixm123_3
+      - 🇬🇧GB英国电报https://t.me/kejixm123_2
+      - 电报https://t.me/kejixm123_4
+      - 🇲🇾MY马来西亚电报https://t.me/kejixm123
+      - 🇬🇧GB英国电报https://t.me/kejixm123_3
+      - 🇭🇰HK香港电报https://t.me/kejixm123_2
+      - 🇨🇭CH瑞士电报https://t.me/kejixm123
+      - 电报https://t.me/kejixm123_5
+      - 🇺🇸US美国电报https://t.me/kejixm123_5
+      - 🇭🇰HK香港电报https://t.me/kejixm123_3
+      - 🇺🇸US美国电报https://t.me/kejixm123_6
+      - 🇬🇧GB英国电报https://t.me/kejixm123_4
+      - 🇧🇬BG保加利亚电报https://t.me/kejixm123
+      - 🇯🇵JP日本电报https://t.me/kejixm123_3
+      - 🇩🇪DE德国电报https://t.me/kejixm123_3
+      - 🇸🇬SG新加坡电报https://t.me/kejixm123_2
+      - 🇭🇰HK香港电报https://t.me/kejixm123_4
+      - 🇳🇱NL荷兰电报https://t.me/kejixm123_2
+      - 🇺🇸US美国电报https://t.me/kejixm123_7
+      - 🇩🇪DE德国电报https://t.me/kejixm123_4
+      - 🇷🇺RU俄罗斯联邦电报https://t.me/kejixm123
+      - 🇯🇵JP日本电报https://t.me/kejixm123_4
+      - 🇺🇸US美国电报https://t.me/kejixm123_8
+      - 🇳🇴NO挪威电报https://t.me/kejixm123
+      - 🇨🇴CO哥伦比亚电报https://t.me/kejixm123
+      - 电报https://t.me/kejixm123_6
+      - 🇬🇧GB英国电报https://t.me/kejixm123_5
+      - 🇵🇭PH菲律宾电报https://t.me/kejixm123
+      - 🇺🇸US美国电报https://t.me/kejixm123_9
+      - 🇺🇸US美国电报https://t.me/kejixm123_10
+      - 🇺🇸US美国电报https://t.me/kejixm123_11
+      - 🇺🇸US美国电报https://t.me/kejixm123_12
+      - 🇮🇱IL以色列电报https://t.me/kejixm123
+      - 🇺🇸US美国电报https://t.me/kejixm123_13
+      - 🇩🇪DE德国电报https://t.me/kejixm123_5
+      - 🇨🇳CN中国电报https://t.me/kejixm123_4
+      - 🇭🇰HK香港电报https://t.me/kejixm123_5
+      - 🇸🇬SG新加坡电报https://t.me/kejixm123_3
+      - 🇺🇸US美国电报https://t.me/kejixm123_14
+      - 🇸🇬SG新加坡电报https://t.me/kejixm123_4
+      - 🇫🇷FR法国电报https://t.me/kejixm123
+      - 🇺🇸US美国电报https://t.me/kejixm123_15
+      - 🇨🇳CN中国电报https://t.me/kejixm123_5
+      - 🇭🇰HK香港电报https://t.me/kejixm123_6
+      - 🇨🇳CN中国电报https://t.me/kejixm123_6
+      - 🇨🇳CN中国电报https://t.me/kejixm123_7
+      - 🇨🇳CN中国电报https://t.me/kejixm123_8
+      - 🇨🇳CN中国电报https://t.me/kejixm123_9
+      - 🇨🇳CN中国电报https://t.me/kejixm123_10
+      - 🇮🇷IR伊朗电报https://t.me/kejixm123
+      - 🇭🇰HK香港电报https://t.me/kejixm123_7
+      - 🇨🇳CN中国电报https://t.me/kejixm123_11
+      - 🇨🇳CN中国电报https://t.me/kejixm123_12
+      - 🇨🇳CN中国电报https://t.me/kejixm123_13
+      - 🇨🇳CN中国电报https://t.me/kejixm123_14
+      - 🇨🇳CN中国电报https://t.me/kejixm123_15
+      - 🇸🇬SG新加坡电报https://t.me/kejixm123_5
+      - 🇨🇳CN中国电报https://t.me/kejixm123_16
+      - 🇨🇳CN中国电报https://t.me/kejixm123_17
+      - 🇨🇳CN中国电报https://t.me/kejixm123_18
+      - 🇨🇳CN中国电报https://t.me/kejixm123_19
+      - 🇨🇳CN中国电报https://t.me/kejixm123_20
+      - 🇨🇳CN中国电报https://t.me/kejixm123_21
+      - 🇨🇳CN中国电报https://t.me/kejixm123_22
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 白嫖节点@kejixm123_1
-      - 白嫖节点@kejixm123_2
-      - 🇺🇸_US_美国_白嫖节点@kejixm123_1
-      - 🇺🇸_US_美国_白嫖节点@kejixm123_2
-      - 🇨🇳_CN_中国_白嫖节点@kejixm123_1
-      - 🇬🇧_GB_英国_白嫖节点@kejixm123_1
-      - 🇯🇵_JP_日本_白嫖节点@kejixm123
-      - 🇩🇪_DE_德国_白嫖节点@kejixm123_1
-      - 🇭🇰_HK_香港_白嫖节点@kejixm123_1
-      - 🇩🇪_DE_德国_白嫖节点@kejixm123_2
-      - 🇨🇳_CN_中国_白嫖节点@kejixm123_2
-      - 白嫖节点@kejixm123_3
-      - 🇺🇸_US_美国_白嫖节点@kejixm123_3
-      - 白嫖节点@kejixm123_4
-      - 🇺🇸_US_美国_白嫖节点@kejixm123_4
-      - 🇳🇴_NO_挪威_白嫖节点@kejixm123
-      - 🇬🇧_GB_英国_白嫖节点@kejixm123_2
-      - 白嫖节点@kejixm123_5
-      - 白嫖节点@kejixm123_6
-      - 🇹🇭_TH_泰国_白嫖节点@kejixm123
-      - 🇸🇬_SG_新加坡_白嫖节点@kejixm123_1
-      - 🇩🇰_DK_丹麦_白嫖节点@kejixm123
-      - 🇺🇸_US_美国_白嫖节点@kejixm123_5
-      - 🇺🇸_US_美国_白嫖节点@kejixm123_6
-      - 🇸🇬_SG_新加坡_白嫖节点@kejixm123_2
-      - 🇸🇬_SG_新加坡_白嫖节点@kejixm123_3
-      - 🇱🇺_LU_卢森堡_白嫖节点@kejixm123
-      - 🇨🇳_CN_中国_白嫖节点@kejixm123_3
-      - 🇭🇰_HK_香港_白嫖节点@kejixm123_2
-      - 🇨🇳_CN_中国_白嫖节点@kejixm123_4
-      - 🇨🇳_CN_中国_白嫖节点@kejixm123_5
+      - 🇩🇪DE德国电报https://t.me/kejixm123_1
+      - 电报https://t.me/kejixm123_1
+      - 🇺🇸US美国电报https://t.me/kejixm123_1
+      - 🇳🇱NL荷兰电报https://t.me/kejixm123_1
+      - 电报https://t.me/kejixm123_2
+      - 🇭🇰HK香港电报https://t.me/kejixm123_1
+      - 🇺🇸US美国电报https://t.me/kejixm123_2
+      - 🇺🇸US美国电报https://t.me/kejixm123_3
+      - 🇩🇪DE德国电报https://t.me/kejixm123_2
+      - 🇸🇬SG新加坡电报https://t.me/kejixm123_1
+      - 🇨🇳CN中国电报https://t.me/kejixm123_1
+      - 🇯🇵JP日本电报https://t.me/kejixm123_1
+      - 🇬🇧GB英国电报https://t.me/kejixm123_1
+      - 🇺🇸US美国电报https://t.me/kejixm123_4
+      - 电报https://t.me/kejixm123_3
+      - 🇨🇳CN中国电报https://t.me/kejixm123_2
+      - 🇯🇵JP日本电报https://t.me/kejixm123_2
+      - 🇨🇳CN中国电报https://t.me/kejixm123_3
+      - 🇬🇧GB英国电报https://t.me/kejixm123_2
+      - 电报https://t.me/kejixm123_4
+      - 🇲🇾MY马来西亚电报https://t.me/kejixm123
+      - 🇬🇧GB英国电报https://t.me/kejixm123_3
+      - 🇭🇰HK香港电报https://t.me/kejixm123_2
+      - 🇨🇭CH瑞士电报https://t.me/kejixm123
+      - 电报https://t.me/kejixm123_5
+      - 🇺🇸US美国电报https://t.me/kejixm123_5
+      - 🇭🇰HK香港电报https://t.me/kejixm123_3
+      - 🇺🇸US美国电报https://t.me/kejixm123_6
+      - 🇬🇧GB英国电报https://t.me/kejixm123_4
+      - 🇧🇬BG保加利亚电报https://t.me/kejixm123
+      - 🇯🇵JP日本电报https://t.me/kejixm123_3
+      - 🇩🇪DE德国电报https://t.me/kejixm123_3
+      - 🇸🇬SG新加坡电报https://t.me/kejixm123_2
+      - 🇭🇰HK香港电报https://t.me/kejixm123_4
+      - 🇳🇱NL荷兰电报https://t.me/kejixm123_2
+      - 🇺🇸US美国电报https://t.me/kejixm123_7
+      - 🇩🇪DE德国电报https://t.me/kejixm123_4
+      - 🇷🇺RU俄罗斯联邦电报https://t.me/kejixm123
+      - 🇯🇵JP日本电报https://t.me/kejixm123_4
+      - 🇺🇸US美国电报https://t.me/kejixm123_8
+      - 🇳🇴NO挪威电报https://t.me/kejixm123
+      - 🇨🇴CO哥伦比亚电报https://t.me/kejixm123
+      - 电报https://t.me/kejixm123_6
+      - 🇬🇧GB英国电报https://t.me/kejixm123_5
+      - 🇵🇭PH菲律宾电报https://t.me/kejixm123
+      - 🇺🇸US美国电报https://t.me/kejixm123_9
+      - 🇺🇸US美国电报https://t.me/kejixm123_10
+      - 🇺🇸US美国电报https://t.me/kejixm123_11
+      - 🇺🇸US美国电报https://t.me/kejixm123_12
+      - 🇮🇱IL以色列电报https://t.me/kejixm123
+      - 🇺🇸US美国电报https://t.me/kejixm123_13
+      - 🇩🇪DE德国电报https://t.me/kejixm123_5
+      - 🇨🇳CN中国电报https://t.me/kejixm123_4
+      - 🇭🇰HK香港电报https://t.me/kejixm123_5
+      - 🇸🇬SG新加坡电报https://t.me/kejixm123_3
+      - 🇺🇸US美国电报https://t.me/kejixm123_14
+      - 🇸🇬SG新加坡电报https://t.me/kejixm123_4
+      - 🇫🇷FR法国电报https://t.me/kejixm123
+      - 🇺🇸US美国电报https://t.me/kejixm123_15
+      - 🇨🇳CN中国电报https://t.me/kejixm123_5
+      - 🇭🇰HK香港电报https://t.me/kejixm123_6
+      - 🇨🇳CN中国电报https://t.me/kejixm123_6
+      - 🇨🇳CN中国电报https://t.me/kejixm123_7
+      - 🇨🇳CN中国电报https://t.me/kejixm123_8
+      - 🇨🇳CN中国电报https://t.me/kejixm123_9
+      - 🇨🇳CN中国电报https://t.me/kejixm123_10
+      - 🇮🇷IR伊朗电报https://t.me/kejixm123
+      - 🇭🇰HK香港电报https://t.me/kejixm123_7
+      - 🇨🇳CN中国电报https://t.me/kejixm123_11
+      - 🇨🇳CN中国电报https://t.me/kejixm123_12
+      - 🇨🇳CN中国电报https://t.me/kejixm123_13
+      - 🇨🇳CN中国电报https://t.me/kejixm123_14
+      - 🇨🇳CN中国电报https://t.me/kejixm123_15
+      - 🇸🇬SG新加坡电报https://t.me/kejixm123_5
+      - 🇨🇳CN中国电报https://t.me/kejixm123_16
+      - 🇨🇳CN中国电报https://t.me/kejixm123_17
+      - 🇨🇳CN中国电报https://t.me/kejixm123_18
+      - 🇨🇳CN中国电报https://t.me/kejixm123_19
+      - 🇨🇳CN中国电报https://t.me/kejixm123_20
+      - 🇨🇳CN中国电报https://t.me/kejixm123_21
+      - 🇨🇳CN中国电报https://t.me/kejixm123_22
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -277,37 +627,87 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 白嫖节点@kejixm123_1
-      - 白嫖节点@kejixm123_2
-      - 🇺🇸_US_美国_白嫖节点@kejixm123_1
-      - 🇺🇸_US_美国_白嫖节点@kejixm123_2
-      - 🇨🇳_CN_中国_白嫖节点@kejixm123_1
-      - 🇬🇧_GB_英国_白嫖节点@kejixm123_1
-      - 🇯🇵_JP_日本_白嫖节点@kejixm123
-      - 🇩🇪_DE_德国_白嫖节点@kejixm123_1
-      - 🇭🇰_HK_香港_白嫖节点@kejixm123_1
-      - 🇩🇪_DE_德国_白嫖节点@kejixm123_2
-      - 🇨🇳_CN_中国_白嫖节点@kejixm123_2
-      - 白嫖节点@kejixm123_3
-      - 🇺🇸_US_美国_白嫖节点@kejixm123_3
-      - 白嫖节点@kejixm123_4
-      - 🇺🇸_US_美国_白嫖节点@kejixm123_4
-      - 🇳🇴_NO_挪威_白嫖节点@kejixm123
-      - 🇬🇧_GB_英国_白嫖节点@kejixm123_2
-      - 白嫖节点@kejixm123_5
-      - 白嫖节点@kejixm123_6
-      - 🇹🇭_TH_泰国_白嫖节点@kejixm123
-      - 🇸🇬_SG_新加坡_白嫖节点@kejixm123_1
-      - 🇩🇰_DK_丹麦_白嫖节点@kejixm123
-      - 🇺🇸_US_美国_白嫖节点@kejixm123_5
-      - 🇺🇸_US_美国_白嫖节点@kejixm123_6
-      - 🇸🇬_SG_新加坡_白嫖节点@kejixm123_2
-      - 🇸🇬_SG_新加坡_白嫖节点@kejixm123_3
-      - 🇱🇺_LU_卢森堡_白嫖节点@kejixm123
-      - 🇨🇳_CN_中国_白嫖节点@kejixm123_3
-      - 🇭🇰_HK_香港_白嫖节点@kejixm123_2
-      - 🇨🇳_CN_中国_白嫖节点@kejixm123_4
-      - 🇨🇳_CN_中国_白嫖节点@kejixm123_5
+      - 🇩🇪DE德国电报https://t.me/kejixm123_1
+      - 电报https://t.me/kejixm123_1
+      - 🇺🇸US美国电报https://t.me/kejixm123_1
+      - 🇳🇱NL荷兰电报https://t.me/kejixm123_1
+      - 电报https://t.me/kejixm123_2
+      - 🇭🇰HK香港电报https://t.me/kejixm123_1
+      - 🇺🇸US美国电报https://t.me/kejixm123_2
+      - 🇺🇸US美国电报https://t.me/kejixm123_3
+      - 🇩🇪DE德国电报https://t.me/kejixm123_2
+      - 🇸🇬SG新加坡电报https://t.me/kejixm123_1
+      - 🇨🇳CN中国电报https://t.me/kejixm123_1
+      - 🇯🇵JP日本电报https://t.me/kejixm123_1
+      - 🇬🇧GB英国电报https://t.me/kejixm123_1
+      - 🇺🇸US美国电报https://t.me/kejixm123_4
+      - 电报https://t.me/kejixm123_3
+      - 🇨🇳CN中国电报https://t.me/kejixm123_2
+      - 🇯🇵JP日本电报https://t.me/kejixm123_2
+      - 🇨🇳CN中国电报https://t.me/kejixm123_3
+      - 🇬🇧GB英国电报https://t.me/kejixm123_2
+      - 电报https://t.me/kejixm123_4
+      - 🇲🇾MY马来西亚电报https://t.me/kejixm123
+      - 🇬🇧GB英国电报https://t.me/kejixm123_3
+      - 🇭🇰HK香港电报https://t.me/kejixm123_2
+      - 🇨🇭CH瑞士电报https://t.me/kejixm123
+      - 电报https://t.me/kejixm123_5
+      - 🇺🇸US美国电报https://t.me/kejixm123_5
+      - 🇭🇰HK香港电报https://t.me/kejixm123_3
+      - 🇺🇸US美国电报https://t.me/kejixm123_6
+      - 🇬🇧GB英国电报https://t.me/kejixm123_4
+      - 🇧🇬BG保加利亚电报https://t.me/kejixm123
+      - 🇯🇵JP日本电报https://t.me/kejixm123_3
+      - 🇩🇪DE德国电报https://t.me/kejixm123_3
+      - 🇸🇬SG新加坡电报https://t.me/kejixm123_2
+      - 🇭🇰HK香港电报https://t.me/kejixm123_4
+      - 🇳🇱NL荷兰电报https://t.me/kejixm123_2
+      - 🇺🇸US美国电报https://t.me/kejixm123_7
+      - 🇩🇪DE德国电报https://t.me/kejixm123_4
+      - 🇷🇺RU俄罗斯联邦电报https://t.me/kejixm123
+      - 🇯🇵JP日本电报https://t.me/kejixm123_4
+      - 🇺🇸US美国电报https://t.me/kejixm123_8
+      - 🇳🇴NO挪威电报https://t.me/kejixm123
+      - 🇨🇴CO哥伦比亚电报https://t.me/kejixm123
+      - 电报https://t.me/kejixm123_6
+      - 🇬🇧GB英国电报https://t.me/kejixm123_5
+      - 🇵🇭PH菲律宾电报https://t.me/kejixm123
+      - 🇺🇸US美国电报https://t.me/kejixm123_9
+      - 🇺🇸US美国电报https://t.me/kejixm123_10
+      - 🇺🇸US美国电报https://t.me/kejixm123_11
+      - 🇺🇸US美国电报https://t.me/kejixm123_12
+      - 🇮🇱IL以色列电报https://t.me/kejixm123
+      - 🇺🇸US美国电报https://t.me/kejixm123_13
+      - 🇩🇪DE德国电报https://t.me/kejixm123_5
+      - 🇨🇳CN中国电报https://t.me/kejixm123_4
+      - 🇭🇰HK香港电报https://t.me/kejixm123_5
+      - 🇸🇬SG新加坡电报https://t.me/kejixm123_3
+      - 🇺🇸US美国电报https://t.me/kejixm123_14
+      - 🇸🇬SG新加坡电报https://t.me/kejixm123_4
+      - 🇫🇷FR法国电报https://t.me/kejixm123
+      - 🇺🇸US美国电报https://t.me/kejixm123_15
+      - 🇨🇳CN中国电报https://t.me/kejixm123_5
+      - 🇭🇰HK香港电报https://t.me/kejixm123_6
+      - 🇨🇳CN中国电报https://t.me/kejixm123_6
+      - 🇨🇳CN中国电报https://t.me/kejixm123_7
+      - 🇨🇳CN中国电报https://t.me/kejixm123_8
+      - 🇨🇳CN中国电报https://t.me/kejixm123_9
+      - 🇨🇳CN中国电报https://t.me/kejixm123_10
+      - 🇮🇷IR伊朗电报https://t.me/kejixm123
+      - 🇭🇰HK香港电报https://t.me/kejixm123_7
+      - 🇨🇳CN中国电报https://t.me/kejixm123_11
+      - 🇨🇳CN中国电报https://t.me/kejixm123_12
+      - 🇨🇳CN中国电报https://t.me/kejixm123_13
+      - 🇨🇳CN中国电报https://t.me/kejixm123_14
+      - 🇨🇳CN中国电报https://t.me/kejixm123_15
+      - 🇸🇬SG新加坡电报https://t.me/kejixm123_5
+      - 🇨🇳CN中国电报https://t.me/kejixm123_16
+      - 🇨🇳CN中国电报https://t.me/kejixm123_17
+      - 🇨🇳CN中国电报https://t.me/kejixm123_18
+      - 🇨🇳CN中国电报https://t.me/kejixm123_19
+      - 🇨🇳CN中国电报https://t.me/kejixm123_20
+      - 🇨🇳CN中国电报https://t.me/kejixm123_21
+      - 🇨🇳CN中国电报https://t.me/kejixm123_22
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
